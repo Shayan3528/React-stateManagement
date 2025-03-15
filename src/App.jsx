@@ -1,4 +1,4 @@
-import ResetState from "./Component/ResetState";
+import FormWithKey from "./Component/FormWithKey";
 export default function App() {
   return (
     <div className=" flex flex-col items-center my-10">
@@ -8,7 +8,8 @@ export default function App() {
       {/* <Accordian /> */}
       {/* <Duplication /> */}
       {/* <RenderTree /> */}
-      <ResetState />
+      {/* <ResetState /> */}
+      <FormWithKey />
     </div>
   );
 }
